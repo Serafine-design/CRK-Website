@@ -1,10 +1,70 @@
-.hero-img{
-    background-image: url("./CRK\ website\ images/");
-    width: 100%;
+body{
+    background-color: #E3D3C7;
+}
+
+
+.hero-image{
+    background-image: url("./CRKimages/Hero\ image.webp");
     height: 720px;
-    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
 }
 
 h1{
-    font-size: 1em;
+     color: rgba(255, 0, 98, 0.979);
+     position: absolute;
+     top: 275px;
+     text-align: center;
+     width: 100%;
+     font-size: 5rem;
+
+}
+
+.epictitle{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.epicbox{
+    width: 1295px; 
+    height: 2035px; 
+    background-color: #D7C4B5; 
+    border: 5px solid black; 
+    padding: 20px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    width: 280px; 
+    height: 331px; 
+    background-color: #564639; 
+    margin: 100px;
+    padding-top: 24px;
+}
+.cardinfo{
+    background-image: url("./CRKimages/Creme_brulee_gacha_full.webp");
+    background-size: cover;
+    object-fit: contain;
+    width: 280px;
+    height: 270px;
+    color: white;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 0px;
+    color: white;
+}
+
+.separater{
+    width: 280px; 
+    height: 10px; 
+    background-color: #CC9C81; 
+    margin: 0px;
 }

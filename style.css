@@ -28,6 +28,8 @@ h1{
 }
 
 .epicbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 1295px; 
     height: 2035px; 
     background-color: #D7C4B5; 
@@ -42,7 +44,9 @@ h1{
     width: 280px; 
     height: 331px; 
     background-color: #564639; 
-    margin: 100px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 24px;
 }
 .cardinfo{

@@ -35,9 +35,12 @@ img{
 }
 
 
-.epictitle{
+.title{
     width: 100%;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: 0px;
 }
 
 .epicbox{
@@ -78,4 +81,18 @@ h2{
     height: 10px; 
     background-color: #CC9C81; 
     margin: 0px;
+}
+
+.everyotherbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 405px);
+    width: 1295px; 
+    height: 435px; 
+    background-color: #D7C4B5; 
+    border: 5px solid black; 
+    padding: 20px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }

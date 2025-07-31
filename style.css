@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
+    margin-bottom: 50px;
 }
 
 h1{ 
@@ -47,7 +48,7 @@ img{
 
 .title{
     width: 1000px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     object-position: 0px;
@@ -71,7 +72,7 @@ img{
     width: 280px; 
     height: 331px; 
     background-color: #564639; 
-    margin: 50px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 24px;

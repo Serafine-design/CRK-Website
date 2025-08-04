@@ -51,10 +51,6 @@ img{
     object-position: -20px 0px;
 }
 
-.position-50{
-    object-position: -50px;
-}
-
 .titles{
     width: 100%;
     text-align: center;
@@ -186,4 +182,24 @@ h2{
     text-decoration: none;
     color: inherit; 
     display: block;
+}
+
+
+.position-50{
+    object-position: -50px;
+}
+.position-60{
+    object-position: -60px;
+}
+.position-100{
+    object-position: -100px;
+}
+.position-80{
+    object-position: -80px;
+}
+.position-50{
+    object-position: -50px;
+}
+.position-50{
+    object-position: -50px;
 }

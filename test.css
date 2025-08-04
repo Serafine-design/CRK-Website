@@ -61,3 +61,7 @@ img{
     color: inherit; 
     display: block;
 }
+
+.overimage{
+    top: 0;
+}

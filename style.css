@@ -87,6 +87,10 @@ h2{
     color: white;
 }
 
+.style{
+    font-size: 15px;
+}
+
 .separater{
     width: 280px; 
     height: 10px; 
@@ -228,3 +232,4 @@ h2{
 .position-100{
     object-position: -100px;
 }
+

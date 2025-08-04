@@ -40,6 +40,7 @@ h1{
 .image{
     width: 280px;
     height: 270px;
+    overflow: hidden;
 }
 
 img{
@@ -162,4 +163,26 @@ h2{
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-link{
+    text-decoration: none;
+    color: inherit; 
+    display: block;
+}
+
+.zoom {
+  transition: transform .2s;
+  width: 280px;
+  height: 270px;
+}
+
+.card:hover .zoom {
+    transform: scale(1.2); 
+}
+
+.card-link{
+    text-decoration: none;
+    color: inherit; 
+    display: block;
 }

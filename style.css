@@ -64,7 +64,9 @@ img{
     top: 0;
     left: 0;
     margin-top: 0;
-    object-position: 0px -50px;
+    object-position: 0px -20px;
+    height: 300px;
+    width: auto;
 }
 
 .overimagefire{
@@ -83,6 +85,13 @@ img{
     object-position: 0px -30px;
 }
 
+.overimagerebel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    object-position: -40px 0px;
+}
 
 .titles{
     width: 100%;

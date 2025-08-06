@@ -26,7 +26,7 @@ body{
 }
 
 h1{
-    color: rgb(71, 68, 255);
+    color: white;
     filter: brightness(100%);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     position: absolute;
@@ -260,7 +260,9 @@ h2{
     object-position: -60px;
 }
 .position-80{
-    object-position: -80px;
+    object-position: -80px 10px;
+    height: 280px;
+    margin-top: -10px;
 }
 .position-100{
     object-position: -100px;

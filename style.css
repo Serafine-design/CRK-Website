@@ -277,3 +277,63 @@ h2{
     object-position: -100px;
 }
 
+.positionbackground{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px; 
+    height: 80px; 
+    background-color: #D9C5B2;
+    border: 2px solid darkgrey;
+    filter: brightness(80%);
+    
+}
+
+.magic{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 8px -0px;
+}
+.ambush{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 8px -0px;
+}
+.tank{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 5px -0px;
+}
+.bomber{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 4px 2px;
+}
+.ranged{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 0px -0px;
+}
+.support{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 0px 2px;
+}
+.charge{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 0px 2px;
+}
+.healer{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    object-position: 0px 2px;
+}

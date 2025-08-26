@@ -146,7 +146,6 @@ h2{
     grid-template-rows: repeat(5, 405px);
     width: 1295px; 
     height: 2035px; 
-    background-color: #D7C4B5; 
     border: 5px solid #af144d; 
     padding: 20px;
     margin: 50px;
@@ -275,6 +274,7 @@ h2{
 }
 .position-100{
     object-position: -100px;
+    height: 271px;
 }
 
 .positionbackground{

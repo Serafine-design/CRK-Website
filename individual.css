@@ -139,16 +139,23 @@ h3{
 }
 
 .settingbox{
+    width: 1740px;
+    height: 500px;
     position: relative;
     margin-top: 50px;
     margin-left: 20px;
-    width: 1740px;
-    height: 500px;
     background-color: #C0A997;
     padding: 50px;
     padding-bottom: 20px;
     border: 2px solid black;
     border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.settingandtopping{
+    width: 530px;
+    height: 500px;
 }
 
 .cookiesetting{
@@ -171,9 +178,33 @@ h4{
 }
 
 .toppings{
-    width: 120px;
-    height: 177px;
-    margin-left: 50px;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 50px;
+    margin-top: 125px;
 }
 
+.stats{
+    width: fit-content;
+    height: fit-content;
+}
+
+.titlestats{
+    width: 480px;
+    height: 65px;
+    padding: 20px;
+    background-color: #A0846F;
+    border: 5px solid black;
+    border-radius: 25px;
+    position: relative;
+}
+
+h5{
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0;
+    width: 490px;
+}

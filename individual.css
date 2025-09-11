@@ -10,7 +10,7 @@ img{
     width: 615px;
     height: 562px;
     object-fit: contain;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: -70px;
     z-index: +1;
     position: relative;
@@ -128,6 +128,12 @@ a{
     width: 100%;
     height: auto;
     margin-top: 27px;
+}
+
+.positionimage2{
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
 }
 
 h1{

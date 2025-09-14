@@ -100,11 +100,12 @@ a{
     height: 410px;
     background-color: #C0A997;
     padding: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
     border: 2px solid black;
     margin-left: 10px;
     border-radius: 50px;
     display: flex;
+    overflow-y: auto;
 }
 
 .skillexplanation2{
@@ -116,7 +117,7 @@ a{
     height: 500px;
     background-color: #C0A997;
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-bottom: 20px;
     border: 2px solid black;
     border-radius: 50px;
@@ -130,10 +131,16 @@ a{
     margin-top: 27px;
 }
 
-.positionimage2{
+.positionimageambush{
     width: 100%;
     height: auto;
     margin-top: -20px;
+}
+
+.positionimagemagic{
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
 }
 
 h1{

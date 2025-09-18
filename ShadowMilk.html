@@ -34,28 +34,53 @@
         </div>
 
         <div class="skillexplanation1">
-            <h3>Black Sapphire Gems appear on the battlefield and explode after a certain period of time, inflicting Poison, amplifying debuffs and Poison-type damage. Additionally, the gems decrease enemies' DEF depending on the number of Poison-type Cookies on the team, including Black Sapphire Cookie. The gems will also heal all Poison-type Cookies and increase their DMG Resist. Black Sapphire Cookie amplifies Poison-type DMG as long as he is present on the battlefield. The Deceitful Trio buff will activate partially when entering a battle with Candy Apple Cookie, and the buff will activate fully when entering with Shadow Milk Cookie.</h3>
+            <h3>Shadow Milk Cookie channels the energy of his other-realm to begin a grand spectacle of Deceit. Inflicts Puppet Show at the enemy with the lowest Max HP (targets Cookies first excluding Safeguarded Cookies). The opponent's Shadow Milk Cookie cannot become a target unless no other possible targets are left. Puppet Show can also be applied to Cookies who are resistant to interrupting effects. For the duration of Puppet Show, both the target and the nearby enemies sustain periodic damage. The effect ends with a Grand Finale. Grand Finale deals damage to all enemies, deals damage proportional to Puppet Show's target, and applies Taint on them. If the target is defeated before the end of Puppet Show's duration, a Soul Phantom will appear in their place. A portion of the damage sustained by the Soul Phantom until the end of Puppet Show will be inflicted as Grand Finale's extra damage.<hr>
+
+            If Shadow Milk Cookie is defeated, he will assume his Shadow Form. He will summon his Puppet to fool the enemies and retreat to the other-realm where he will gain Power of Deceit. The Shadow Form effect will last until the Puppet is defeated.<hr>
+
+            At the beginning of the battle, Shadow Milk Cookie will summon the Eye of Truth. Depending on the number of debuffs received by the team, including Shadow Milk Cookie himself, the Eye of Truth will gain stacks of Truth. More stacks of Truth will be gained whenever Shadow Milk Cookie uses his skill. At a certain number of stacks, the Eye of Truth will remove all debuffs from the team and increase the amount of damage dealt by Shadow Milk Cookie at the expense of a greater amount of damage received.<hr>
+
+            When Shadow Milk Cookie gains Power of Deceit, the Eye of Truth will transform into the Eye of Deceit, periodically gaining new stacks of Truth. At a certain number of stacks, it will emit a Tenet of Deceit, dealing damage and resetting the duration of Taint on the target (damage proportional to Max HP is capped at 300,000).</h3>
         </div>
         <div class="skillexplanation2">
             <div class="skill-stats">
-                <ul>
-                    <li>Poison DMG: 1.8% every 0.3 sec per stack of Poison for 12 sec (capped at 44.6%)</li>
-                    <li> Amplified DE-buffs: +25.0% for 15 sec; stacks up to x1</li>
-                    <li> Poison-type DMG (Enemies): +25.0% for 10 sec; stacks up to x1</li>
-                    <li> DEF: -20.0% for 15 sec for each Poison-type Cookie in the team (capped at 80.0%)</li>
-                    <li> Healing: 103.5% of ATK</li>
-                    <li> DMG Resist: +25.0% for 10 sec; stacks up to x1</li>
-                    <li> Poison-type DMG (Allies): +35.0% as long as Black Sapphire Cookie in present on the battlefield</li>
-                </ul>
-                    Deceitful Trio: Activated when entering battle with Candy Apple Cookie:
-                        <ul>
-                            <li>Candy Apple Cookie's regular attacks push enemies back</li>
-                            <li> Healing (Shadow Milk Cookie & Candy Apple Cookie): 167.8% of ATK upon using skill</li>
-                        </ul>
-                    Deceitful Trio: Activated when entering battle with Candy Apple cookie and Shadow Milk Cookie:
-                        <ul>
-                            <li>Poison +1 Stack: 70.6% DMG every 0.2 sec for 12 sec</li>
-                        </ul>
+                <li><strong>Max HP</strong>: +30.0%</li>
+                <li><strong>DMG Resist</strong>: +35.0%</li>
+                <li><strong>Debuff Resist</strong>: +35.0%</li>
+
+                <ul><strong>Puppet Show</strong></ul>
+                <li><strong>DMG Resist</strong>: +35.0% while casting</li>
+                <li><strong>HP Shield</strong>: 35.0% while casting</li>
+                <li><strong>Puppet Show</strong>: Shackles + Curse + DMG +25.0% for 5 sec (not affected by Debuff Resist)</li>
+                <li><strong>Puppet Show Target DMG (Cookies)</strong>: 12.5% of Max HP every 0.25 sec for 3.75 sec</li>
+                <li><strong>Puppet Show Target DMG (Others)</strong>: 53.6% of ATK, ignores 40.0% of DMG Resist</li>
+                <li><strong>Puppet Show Area DMG</strong>: 291.1% of ATK every 0.75 sec for 3 sec; ignores 40.0% of DMG Resist</li>
+                <li><strong>Grand Finale Target DMG (Cookies)</strong>: True DMG proportional to 12.0% of Max HP + 415.8% of ATK</li>
+                <li><strong>Grand Finale Target DMG (Others)</strong>: 135.9% of ATK</li>
+                <li><strong>Grand Finale Area DMG</strong>: 1,670.9% of ATK, ignores 40.0% of DMG Resist</li>
+                <li><strong>Grand Finale Extra DMG</strong>: 35.0% of ATK for every 1% of Max HP lost by Soul Phantoms, ignores 40.0% of DMG Resist (capped at 1,500.0% of ATK)</li>
+
+                <ul><strong>Taint</strong></ul>
+                <li><strong>Dealt DMG -30.0% + Buff Strength -30.0% + Debuff Strength +50.0% for 15 sec</strong>: stacks up to x1</li>
+
+                <ul><strong>Shadow Form</strong></ul>
+                <li><strong>When defeated</strong>: assumes Shadow Form that makes him Immortal and immune to damage for 5.167 sec and activates Power of Deceit</li>
+                <li><strong>Healing (Self)</strong>: 20.0% of Max HP every 0.8 sec for 4 sec</li>
+                <li><strong>Puppet</strong>: Taunt + Hit Shield blocking x50 hits</li>
+                <li><strong>Power of Deceit</strong>: Max HP +55.0%, DMG Resist +40.0%, Indirect DMG Resist +75.0%</li>
+
+                <ul><strong>Beast Passive: Eye of Truth</strong></ul>
+                <li><strong>Truth</strong>: x1 stack is applied for every x14 debuffs received by the team + x1 stack for each activation of Shadow Milk Cookie's skill</li>
+                <li><strong>Eye of Truth triggers</strong>: at x4 stacks of Truth</li>
+                <li><strong>Eye of Truth</strong>: removes all debuffs from the team, DMG dealt by Shadow Milk Cookie +21.5%, DMG received +1.5%, HP Shield blocking DMG equal to 17.5% for 15 sec; stacks up to x1</li>
+
+                <ul><strong>Beast Passive: Eye of Deceit</strong></ul>
+                <li><strong>Truth</strong>: x1 stack is applied every 3 sec</li>
+                <li><strong>Eye of Deceit triggers</strong>: at x4 stacks of Truth</li>
+                <li><strong>DMG</strong>: 702.4% of ATK, ignores 30.0% of DMG Resist</li>
+                <li><strong>Eye of Deceit</strong>: DMG -37.3% for 20 sec; stacks up to x1</li>
+                <li><strong>Resets</strong>: the duration of Taint</li>
+                <li><strong>Healing (Self)</strong>: 67.1% of ATK</li>
             </div>
         <img src="./CRKimages/Class/Magicclass.webp" alt="support" class="positionimagemagic">
         </div>
@@ -66,7 +91,7 @@
                 <div class="cookiesetting">
                     <h4>Cookie Setting</h4>
                     <div class="toppings">
-                        <img src="./CRKimages/Toppings/Topping_applejelly_raritydeceit.webp" alt="raspberry">
+                        <img src="./CRKimages/Toppings/Topping_chocolate_deceit.webp" alt="raspberry">
                         <img src="./CRKimages/Toppings/Topping_raspberry_raritydeceit.webp" alt="applejelly" class="second">
                     </div>
                 </div>
@@ -78,17 +103,17 @@
                 <div class="statsinfo">
                     <h6>
                         <ul>
-                            <li>Crit %
+                            <li>Resist bypass</li>
                             <li>Attack</li>
                             <li>Cooldown</li>
-                            <li>Poison DMG</li>
+                            <li>DMG resist</li>
                         </ul>
                     </h6>
                     <div class="statimages">
-                        <img src="./CRKimages/Status Effects/Status_CritRateUp.webp" alt="Crit">
-                        <img src="./CRKimages/Status Effects/Status_CooldownDown.webp" alt="CD">
-                        <img src="./CRKimages/Status Effects/Atk_up.webp" alt="attack">
-                        <img src="./CRKimages/Status Effects/Atk_up.webp" alt="Poison">
+                        <img src="./CRKimages/Status Effects/Status_Bypass.webp" alt="Crit">
+                        <img src="./CRKimages/Status Effects/Atk_up.webp" alt="CD">
+                        <img src="./CRKimages/Status Effects/Status_CooldownDown.webp" alt="attack">
+                        <img src="./CRKimages/Status Effects/Dmg_down.webp" alt="Poison">
                     </div>
                 </div>
             </div>
@@ -98,9 +123,9 @@
                 </div>
                 <div class="info">
                     <ul class="infopassage">
-                        <li>Used only in Dragon guild raid with Candy apple and Shadow milk for the Deceitful Trio passive. 
-                            Therefore if you don't have all 3 cookies, he is useless.</li>
-                        <li>Do not level him up if you are a beginner</li>
+                        <li>OP cookie, to some lengths, the best cookie in the game</li>
+                        <li>Has a really cool skin, you should consider getting it</li>
+                        <li>Used in Red Velvet Dragon guild raid</li>
                     </ul>
                 </div>
             </div>

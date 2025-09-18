@@ -37,28 +37,41 @@
         </div>
 
         <div class="skillexplanation1">
-            <h3>Black Sapphire Gems appear on the battlefield and explode after a certain period of time, inflicting Poison, amplifying debuffs and Poison-type damage. Additionally, the gems decrease enemies' DEF depending on the number of Poison-type Cookies on the team, including Black Sapphire Cookie. The gems will also heal all Poison-type Cookies and increase their DMG Resist. Black Sapphire Cookie amplifies Poison-type DMG as long as he is present on the battlefield. The Deceitful Trio buff will activate partially when entering a battle with Candy Apple Cookie, and the buff will activate fully when entering with Shadow Milk Cookie.</h3>
+            <h3>Upon transforming, Wind Archer Cookie removes all debuffs from himself, then shoots his Arrow of Gale, pushing back and stunning enemies, and applies the Trace of the Wind and Pursuer debuffs. While transformed, he will become immune to debuffs except for Curse and will shoot his Pursuer's Arrows with his attacks.<hr>
+
+                The Pursuer's Arrow attacks up to five enemies with the highest ATK and applies the Trace of the Wind and Pursuer debuffs to its targets. Once Pursuer reaches max stacks, it will explode and inflict damage proportional to the targets' Max HP, damage nearby enemies, and apply the Trace of the Wind debuff. Wind Archer Cookie applies the Mighty Gale buff to himself whenever he shoots the Pursuer's Arrow.<hr>
+                
+                This Guardian Cookie casts Last Wind, which partially ignores the target's DMG Resist and inflicts additional damage to enemies proportional to the number of Mighty Gale stacks. Affected enemies will be trapped in a Cyclone. When entering the battle, Wind Archer Cookie's Max HP increases. (DMG proportional to Max HP is capped at 300,000.)</h3>
         </div>
         <div class="skillexplanation2">
             <div class="skill-stats">
+                <li><strong>Max HP</strong>: +30.0%</li>
+                <li><strong>Transformation</strong>: 11 sec</li>
                 <ul>
-                    <li>Poison DMG: 1.8% every 0.3 sec per stack of Poison for 12 sec (capped at 44.6%)</li>
-                    <li> Amplified DE-buffs: +25.0% for 15 sec; stacks up to x1</li>
-                    <li> Poison-type DMG (Enemies): +25.0% for 10 sec; stacks up to x1</li>
-                    <li> DEF: -20.0% for 15 sec for each Poison-type Cookie in the team (capped at 80.0%)</li>
-                    <li> Healing: 103.5% of ATK</li>
-                    <li> DMG Resist: +25.0% for 10 sec; stacks up to x1</li>
-                    <li> Poison-type DMG (Allies): +35.0% as long as Black Sapphire Cookie in present on the battlefield</li>
+                <strong>Tailwind</strong>
                 </ul>
-                    Deceitful Trio: Activated when entering battle with Candy Apple Cookie:
-                        <ul>
-                            <li>Candy Apple Cookie's regular attacks push enemies back</li>
-                            <li> Healing (Shadow Milk Cookie & Candy Apple Cookie): 167.8% of ATK upon using skill</li>
-                        </ul>
-                    Deceitful Trio: Activated when entering battle with Candy Apple cookie and Shadow Milk Cookie:
-                        <ul>
-                            <li>Poison +1 Stack: 70.6% DMG every 0.2 sec for 12 sec</li>
-                        </ul>
+                <li><strong>DMG Resist</strong>: +15.0%, ATK SPD +10.0% for 10 sec with regular attacks; stacks up to x5</li>
+                <ul>
+                <strong>Arrow of Gale</strong>
+                </ul>
+                <li><strong>DMG</strong>: Wind Element182.5% of ATK, ignores 40.0% of target's DMG Resist</li>
+                <li><strong>Stun</strong>: 2.5 sec</li>
+                <li><strong>Trace of the Wind</strong>: DMG dealt to Wind-type Cookies -30.0%, DMG dealt to other Cookies -12.0% for 30.0 sec; capped at x1</li>
+                <li><strong>Mighty Gale</strong>: DMG Resist Bypass +2.0%, ATK +1.5% (self) for 8.0 sec; stacks up to x15</li>
+                <ul>
+                <strong>Pursuer's Arrow</strong>
+                </ul>
+                <li><strong>DMG</strong>: Wind Element93.7% of ATK + 9.4% of Max HP (Cookies)</li>
+                <li><strong>Pursuer</strong>: 7.0 sec; stacks up to x3</li>
+                <li><strong>Pursuer DMG</strong>: True Damage 10.5% of Max HP (Cookies), Wind Element166.3% of ATK (Others)</li>
+                <li><strong>Pursuer Area DMG</strong>: Wind Element219.7% of ATK</li>
+                <li><strong>Pursuer Cooldown</strong>: 1.0 sec</li>
+                <li><strong>Trace of the Wind</strong>: DMG dealt to Wind-type Cookies -8.0%, DMG dealt to other Cookies -7.0% for 30.0 sec; capped at x1</li>
+                <ul>
+                <strong>Last Wind</strong>
+                </ul>
+                <li><strong>DMG</strong>: Wind Element958.0% of ATK + Wind Element50.3% of extra DMG per stack of Mighty Gale, ignores 40.0% of target's DMG Resist</li>
+                <li><strong>Cyclone Duration</strong>: 2.5 sec, not affected by enemy's Debuff Resist</li>
             </div>
         <img src="./CRKimages/Class/Rangedclass.webp" alt="support" class="positionimage">
         </div>
@@ -69,8 +82,8 @@
                 <div class="cookiesetting">
                     <h4>Cookie Setting</h4>
                     <div class="toppings">
-                        <img src="./CRKimages/Toppings/Topping_applejelly_raritydeceit.webp" alt="raspberry">
-                        <img src="./CRKimages/Toppings/Topping_raspberry_raritydeceit.webp" alt="applejelly" class="second">
+                        <img src="./CRKimages/Toppings/Topping_raspberry_wind.webp" alt="raspberry">
+                        <img src="./CRKimages/Toppings/Topping_caramel_wind.webp" alt="applejelly" class="second">
                     </div>
                 </div>
             </div>
@@ -81,17 +94,17 @@
                 <div class="statsinfo">
                     <h6>
                         <ul>
-                            <li>Crit %
+                            <li>Resist bypass</li>
+                            <li>Dmg resist</li>
                             <li>Attack</li>
-                            <li>Cooldown</li>
-                            <li>Poison DMG</li>
+                            <li>Attack SPD</li>
                         </ul>
                     </h6>
                     <div class="statimages">
-                        <img src="./CRKimages/Status Effects/Status_CritRateUp.webp" alt="Crit">
-                        <img src="./CRKimages/Status Effects/Status_CooldownDown.webp" alt="CD">
+                        <img src="./CRKimages/Status Effects/Status_Bypass.webp" alt="Crit">
+                        <img src="./CRKimages/Status Effects/Dmg_down.webp" alt="CD">
                         <img src="./CRKimages/Status Effects/Atk_up.webp" alt="attack">
-                        <img src="./CRKimages/Status Effects/Atk_up.webp" alt="Poison">
+                        <img src="./CRKimages/Status Effects/Status_ATK_SPD_Up.webp" alt="Poison">
                     </div>
                 </div>
             </div>
@@ -101,9 +114,7 @@
                 </div>
                 <div class="info">
                     <ul class="infopassage">
-                        <li>Used only in Dragon guild raid with Candy apple and Shadow milk for the Deceitful Trio passive. 
-                            Therefore if you don't have all 3 cookies, he is useless.</li>
-                        <li>Do not level him up if you are a beginner</li>
+                        <li>Do not think of this character as a legendary and therefore better version of Crème Brûlée Cookie, they both have their strengths but Crème Brûlée is still better in bossfights</li>
                     </ul>
                 </div>
             </div>
